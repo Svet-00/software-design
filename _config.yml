@@ -25,10 +25,6 @@ email: swetozar.volkov@yandex.ru
 description: >- # this means to ignore newlines until "baseurl:"
   My personal notes and abstracts on software design
 
-domain: svet-00.github.io
-url: https://svet-00.github.io
-baseurl: /software-design
-
 github_username:  Svet-00
 
 
@@ -68,6 +64,9 @@ comments:
       - rupikz
 
 
+markdown    : kramdown
+highlighter : rouge
+permalink   : date
 
 plugins:
   - jekyll-github-metadata
