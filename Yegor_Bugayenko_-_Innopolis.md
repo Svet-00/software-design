@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: Yegor Bugayenko - Innopolis
 permalink: /yegor-bugayenko-innopolis/
 key: yegor-bugayenko-innopolis
