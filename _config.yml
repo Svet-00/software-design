@@ -73,7 +73,7 @@ plugins:
   - jekyll-github-metadata
 
 
-data_dir: /data
+data_dir: /_data
 
 
 # Exclude from processing.
