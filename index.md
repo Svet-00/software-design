@@ -5,7 +5,7 @@ permalink: /
 sidebar:
   nav: docs-en
 aside:
-	toc: false
+  toc: false
 
 # Default for all pages:
 show_edit_on_github: true

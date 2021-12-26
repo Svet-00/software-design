@@ -8,7 +8,7 @@ sidebar:
 show_edit_on_github: true
 full_width: false
 aside:
-	toc: true
+  toc: true
 	
 # Default for all pages:
 show_edit_on_github: true
