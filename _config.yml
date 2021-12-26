@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 encoding: UTF-8
+lang: en
 
 title: Software Design
 email: swetozar.volkov@yandex.ru
@@ -30,10 +31,44 @@ baseurl: /software-design
 
 github_username:  Svet-00
 
-# Build settings
+
 remote_theme: kitian616/jekyll-TeXt-theme
+
+sources: bootcdn # bootcdn (default), unpkg
+
+text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+
+toc:
+  selectors: h1,h2
+
+# Mathjax
+mathjax: true
+mathjax_autoNumber: true
+
+# Mermaid
+mermaid: true
+
+# Chart
+chart: true
+
+repository: username/repo-name
+repository_tree: main
+
+comments:
+  provider: gitalk
+  gitalk:
+    clientID    : 84c5accecf9e9912bb30
+    clientSecret: ${COMMENTS_SECRET}
+    repository  : software-design-comments
+    owner       : Svet-00
+    admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+      - Svet-00
+      - rupikz
+
+
+
 plugins:
-  - jekyll-feed
+  - jekyll-github-metadata
 
 # Exclude from processing.
 # The following items will not be processed, by default.
