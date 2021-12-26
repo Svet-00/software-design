@@ -5,7 +5,7 @@ permalink: /yegor-bugayenko-innopolis/
 ---
 
 # Intro
-Here are notes on [lectures](https://www.youtube.com/playlist?list=PLaIsQH4uc08woJKRAA7mmjs9fU0jeKjjM) by Yegor Bugayenko from Innopolis
+Here are notes on [lectures](https://www.youtube.com/playlist?list=PLaIsQH4uc08woJKRAA7mmjs9fU0jeKjjM) from Innopolis by Yegor Bugayenko
 
 # L2 - Requirements
 
