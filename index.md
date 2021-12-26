@@ -1,6 +1,12 @@
+---
+layout: page
+title: About
+permalink: /
+---
+
 # Software design
 
-Hello! This is a test index page!
+This site contains my notes and abstracts on software design.
 
-Wiki reference to [Ten Mistakes in Specs](Ten%20Mistakes%20in%20Specs.md)
-Md refrenece to [Ten Mistakes in Specs](Ten Mistakes in Specs.md)
+Links:
+[Github repo of this site](https://github.com/Svet-00/software-design)

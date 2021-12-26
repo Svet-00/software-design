@@ -1,3 +1,9 @@
+---
+layout: page
+title: L2 - Requirements
+permalink: /yegor-innopolis/requirements/
+---
+
 # Use cases
 ## Example
 Use case: Make a QR Code
