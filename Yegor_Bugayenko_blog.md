@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Yegor Bugayenko - Blog
-permalink: /yegor-bugayenko-blog/
+permalink: /yegor-bugayenko-blog
 key: yegor-bugayenko-blog
 sidebar:
   nav: docs-en

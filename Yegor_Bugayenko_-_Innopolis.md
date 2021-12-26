@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Yegor Bugayenko - Innopolis
-permalink: /yegor-bugayenko-innopolis/
+permalink: /yegor-bugayenko-innopolis
 key: yegor-bugayenko-innopolis
 sidebar:
   nav: docs-en
