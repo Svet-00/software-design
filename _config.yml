@@ -38,6 +38,8 @@ sources: bootcdn # bootcdn (default), unpkg
 
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 
+highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+
 toc:
   selectors: h1,h2
 
