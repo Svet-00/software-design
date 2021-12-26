@@ -1,0 +1,12 @@
+header:
+  - title:      GitHub
+    url:        https://github.com/Svet-00/software-design
+
+
+docs-en:
+  - title:      
+    children:
+      - title:  Yegor Bugayenko - Innopolis
+        url:    /yegor-bugayenko-innopolis
+      - title:  Yegor Bugayenko - Blog
+        url:    /yegor-bugayenko-blog

@@ -3,6 +3,8 @@ layout: page
 title: Yegor Bugayenko - Blog
 permalink: /yegor-bugayenko-blog/
 key: yegor-bugayenko-blog
+sidebar:
+  nav: docs-en
 ---
 
 # Notes from Yegor's blog

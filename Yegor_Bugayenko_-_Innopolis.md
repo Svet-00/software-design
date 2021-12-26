@@ -3,6 +3,8 @@ layout: page
 title: Yegor Bugayenko - Innopolis
 permalink: /yegor-bugayenko-innopolis/
 key: yegor-bugayenko-innopolis
+sidebar:
+  nav: docs-en
 ---
 
 # Intro

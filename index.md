@@ -2,6 +2,8 @@
 layout: page
 title: Intro
 permalink: /
+sidebar:
+  nav: docs-en
 ---
 
 # Software design
