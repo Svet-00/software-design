@@ -31,7 +31,7 @@ baseurl: /software-design
 github_username:  Svet-00
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 

@@ -8,10 +8,10 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-# Theme
-gem "minima", "~> 2.5"
-
 gem "github-pages", "~> 219", group: :jekyll_plugins
+
+# Theme
+gem "just-the-docs"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
