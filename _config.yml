@@ -31,7 +31,7 @@ baseurl: /software-design
 github_username:  Svet-00
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
+remote_theme: kitian616/jekyll-TeXt-theme
 plugins:
   - jekyll-feed
 
