@@ -5,6 +5,18 @@ permalink: /yegor-bugayenko-blog/
 key: yegor-bugayenko-blog
 sidebar:
   nav: docs-en
+show_edit_on_github: true
+full_width: false
+aside:
+	toc: true
+	
+# Default for all pages:
+show_edit_on_github: true
+full_width: false
+mathjax: true
+mathjax_autoNumber: true
+mermaid: true
+chart: true
 ---
 
 # Notes from Yegor's blog
