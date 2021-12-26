@@ -1,10 +1,14 @@
 ---
 layout: page
-title: "Ten Mistakes in Specs"
-permalink: /ten-mistakes-in-specs/
+title: Yegor Bugayenko - Blog
+permalink: /yegor-bugayenko-blog/
 ---
 
-[10 Typical Mistakes in Specs](https://www.yegor256.com/2015/11/10/ten-mistakes-in-specs.html) (yegor256.com)
+# Notes from Yegor's blog
+[https://yegor256.com](https://yegor256.com)
+
+# 10 Typical Mistakes in Specs
+[Blog post](https://www.yegor256.com/2015/11/10/ten-mistakes-in-specs.html) 
 
 - No Glossary or a Messy One
 - Questions, Discussions, Opinions
