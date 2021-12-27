@@ -70,6 +70,7 @@ defaults:
         nav: docs-en
       aside:
         toc: true
+      comment: true
       full_width: false
       show_date: false
       show_edit_on_github: true
