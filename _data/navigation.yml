@@ -6,7 +6,7 @@ header:
 
 
 docs-en:
-  - title:      Software Design
+  - title:      "Notes"
     children:
       - title:  Yegor Bugayenko - Innopolis
         url:    /yegor-bugayenko-innopolis
