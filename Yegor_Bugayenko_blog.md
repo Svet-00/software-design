@@ -1,8 +1,7 @@
 ---
-layout: article
+layout: page
 title: Yegor Bugayenko - Blog
 permalink: /yegor-bugayenko-blog
-key: yegor-bugayenko-blog
 ---
 
 # Notes from Yegor's blog

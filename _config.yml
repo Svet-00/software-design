@@ -26,71 +26,28 @@ email: "swetozar.volkov@yandex.ru"
 description: >- # this means to ignore newlines until "baseurl:"
   My personal notes and abstracts on software design
 
-remote_theme: "kitian616/jekyll-TeXt-theme"
+domain: svet-00.github.io
+url: https://svet-00.github.io
+baseurl: /software-design/ 
 
-sources: "bootcdn" # bootcdn (default), unpkg
+remote_theme: "pmarsceill/just-the-docs"
 
-text_skin: "default" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+## Theme settings
 
-highlight_theme: "default" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub":
+    - "https://github.com/Svet-00/software-design"
 
-toc:
-  selectors: "h1,h2"
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
 
-# Mathjax
-mathjax: true
-mathjax_autoNumber: true
-
-# Mermaid
-mermaid: true
-
-# Chart
-chart: true
-
-repository: "username/repo-name"
-repository_tree: "main"
-
-comments:
-  provider: "gitalk"
-  gitalk:
-    clientID    : "84c5accecf9e9912bb30"
-    clientSecret: "f364e447b864c2d0b58fdbee7e822e32990c51ee"
-    repository  : "software-design-comments"
-    owner       : "Svet-00"
-    admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-      - "Svet-00"
-      - "rupikz"
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: article
-      sidebar:
-        nav: docs-en
-      aside:
-        toc: true
-      comment: true
-      full_width: false
-      show_date: false
-      show_edit_on_github: true
-      mathjax: true
-      mathjax_autoNumber: true
-
-plugins:
-  - jekyll-github-metadata
-  - jekyll-sitemap
-  - jemoji
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
 #
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# Supports true (default) or false
+heading_anchors: true
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
