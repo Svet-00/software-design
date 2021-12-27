@@ -54,7 +54,7 @@ comments:
   provider: "gitalk"
   gitalk:
     clientID    : "84c5accecf9e9912bb30"
-    clientSecret: "${COMMENTS_SECRET}"
+    clientSecret: "f364e447b864c2d0b58fdbee7e822e32990c51ee"
     repository  : "software-design-comments"
     owner       : "Svet-00"
     admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
