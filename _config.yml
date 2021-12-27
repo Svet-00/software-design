@@ -63,17 +63,17 @@ comments:
 
 defaults:
   - scope:
-    path: ""
-  values:
-    layout: article
-    sidebar:
-      nav: docs-en
-    aside:
-      toc: true
-    show_date: false
-    show_edit_on_github: true
-    mathjax: true
-    mathjax_autoNumber: true
+      path: ""
+    values:
+      layout: article
+      sidebar:
+        nav: docs-en
+      aside:
+        toc: true
+      show_date: false
+      show_edit_on_github: true
+      mathjax: true
+      mathjax_autoNumber: true
 
 plugins:
   - jekyll-github-metadata
