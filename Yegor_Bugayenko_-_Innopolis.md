@@ -10,7 +10,7 @@ Here are notes on [lectures](https://www.youtube.com/playlist?list=PLaIsQH4uc08w
 # L2 - Requirements
 
 ## Use cases
-#important #musthave
+#important
 
 Use case is a structured description of usage scenarios.
 
@@ -19,6 +19,7 @@ Use case should not contain ambigous information. This means no
 will/must/would-be-great-if/etc. Only who doing what.
 
 ### Example
+<pre>
 <mark style="background: #ADCCFFA6;">Blue highlight</mark> - Actor
 <mark style="background: #FFB86CA6;">Orange hightlight</mark> - Action
 
@@ -35,6 +36,7 @@ Extensions:
 		2. The User confirms.
 	3a. The User cancels downloading.
 		1. The System stops sending data over HTTP.
+</pre>
 
 ## FPA - Function Point Analysis
 \[Optional]
@@ -57,6 +59,7 @@ system you need to update when you update something.
 #important 
 
 Verification - do we do it right? Assuring that 2 + 2 = 4
+
 Validation - do we still do what we need to do?
 
 First should be done always with automated (and maybe manual) tests.
@@ -68,15 +71,21 @@ Latter should be done as frequent as possible when working with customer.
 NFRs should be as exact as possible. Can not be measured = can not be achieved.
 
 ### Quality Attributes
-Availability: $A = \frac{E_{up}}{E_{down}+E_{up}}$, $E$ = time
+Availability: $A = \frac{E_{up}}{E_{down}+E_{up}}$, $E$ =time
+
 Capacity: Clicks Per Second (CPS), Requests Per Second (RPS)
+
 Recovery: Recovery Time Objective (RTO)
+
 Maintainability: Mean Time To Repair (MTTR)
 
 ### Example
  Bad NFR:
+ 
  The software should be fast.
+ 
  Good NFR:
+ 
  Being installed on a test server (see Annex A), the software must
  respond in less than 20mss on any request from UC1-UC7.
 

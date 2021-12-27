@@ -28,7 +28,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 domain: svet-00.github.io
 url: https://svet-00.github.io
-baseurl: /software-design/ 
+baseurl: /software-design/
+
+markdown: kramdown
 
 remote_theme: "pmarsceill/just-the-docs"
 
