@@ -17,27 +17,25 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-encoding: UTF-8
-lang: en
+encoding: "UTF-8"
+lang: "en"
+timezone: "Europe/Moscow"
 
-title: Software Design
-email: swetozar.volkov@yandex.ru
+title: "Software Design"
+email: "swetozar.volkov@yandex.ru"
 description: >- # this means to ignore newlines until "baseurl:"
   My personal notes and abstracts on software design
 
-github_username:  Svet-00
+remote_theme: "kitian616/jekyll-TeXt-theme"
 
+sources: "bootcdn" # bootcdn (default), unpkg
 
-remote_theme: kitian616/jekyll-TeXt-theme
+text_skin: "default" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 
-sources: bootcdn # bootcdn (default), unpkg
-
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+highlight_theme: "default" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 
 toc:
-  selectors: h1,h2
+  selectors: "h1,h2"
 
 # Mathjax
 mathjax: true
@@ -49,30 +47,38 @@ mermaid: true
 # Chart
 chart: true
 
-repository: username/repo-name
-repository_tree: main
+repository: "username/repo-name"
+repository_tree: "main"
 
 comments:
-  provider: gitalk
+  provider: "gitalk"
   gitalk:
-    clientID    : 84c5accecf9e9912bb30
-    clientSecret: ${COMMENTS_SECRET}
-    repository  : software-design-comments
-    owner       : Svet-00
+    clientID    : "84c5accecf9e9912bb30"
+    clientSecret: "${COMMENTS_SECRET}"
+    repository  : "software-design-comments"
+    owner       : "Svet-00"
     admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-      - Svet-00
-      - rupikz
+      - "Svet-00"
+      - "rupikz"
 
-
-markdown    : kramdown
-highlighter : rouge
-permalink   : date
+defaults:
+  - scope:
+    path: ""
+  values:
+    layout: article
+    sidebar:
+      nav: docs-en
+    aside:
+      toc: true
+    show_date: false
+    show_edit_on_github: true
+    mathjax: true
+    mathjax_autoNumber: true
 
 plugins:
   - jekyll-github-metadata
-
-
-data_dir: /_data
+  - jekyll-sitemap
+  - jemoji
 
 
 # Exclude from processing.

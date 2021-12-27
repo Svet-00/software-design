@@ -3,20 +3,6 @@ layout: article
 title: Yegor Bugayenko - Innopolis
 permalink: /yegor-bugayenko-innopolis
 key: yegor-bugayenko-innopolis
-sidebar:
-  nav: docs-en
-show_edit_on_github: true
-full_width: false
-aside:
-  toc: true
-	
-# Default for all pages:
-show_edit_on_github: true
-full_width: false
-mathjax: true
-mathjax_autoNumber: true
-mermaid: true
-chart: true
 ---
 
 # Intro
