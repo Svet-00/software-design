@@ -26,8 +26,8 @@ email: "swetozar.volkov@yandex.ru"
 description: >- # this means to ignore newlines until "baseurl:"
   My personal notes and abstracts on software design
 
-domain: svet-00.github.io
-url: https://svet-00.github.io
+domain: qoob23.github.io
+url: https://qoob23.github.io
 baseurl: /software-design/
 
 markdown: kramdown
@@ -39,7 +39,7 @@ remote_theme: "pmarsceill/just-the-docs"
 # Aux links for the upper right navigation
 aux_links:
   "GitHub":
-    - "https://github.com/Svet-00/software-design"
+    - "https://github.com/qoob23/software-design"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
