@@ -89,4 +89,8 @@ Maintainability: Mean Time To Repair (MTTR)
  Being installed on a test server (see Annex A), the software must
  respond in less than 20mss on any request from UC1-UC7.
 
- 
+# L3 - Rational Unified Process vs. Agile
+## Qualities of Good Design
+- It must be simple
+- It must not repeat itself
+- It must be modular
